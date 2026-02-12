@@ -49,7 +49,4 @@ I am currently focused on growing as a Front-End Developer and contributing to t
 
 ---
 
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=ebenersantos-dot&show_icons=true&theme=transparent&hide_border=true" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ebenersantos-dot&layout=compact&theme=transparent&hide_border=true" alt="Top languages" />
-</p>
+
