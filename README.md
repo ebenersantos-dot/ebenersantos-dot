@@ -2,7 +2,7 @@
 <p align="center"><strong>Front-End Developer</strong> building clean, accessible, and user-centered web experiences.</p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/ebenersantos">LinkedIn</a>
+  <a href="https://linkedin.com/in/ebenersantos" target="_blank">LinkedIn</a>
 </p>
 
 ---
