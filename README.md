@@ -1,5 +1,5 @@
 <h1 align="center">Ebener Santos</h1>
-<p align="center">Front-End Developer &nbsp;·&nbsp; HTML · CSS · JavaScript · Node.js</p>
+<p align="center">Full-Stack Developer &nbsp;·&nbsp; HTML · CSS · JavaScript · Node.js</p>
 <p align="center">
   <a href="https://linkedin.com/in/ebenersantos">LinkedIn</a>
   &nbsp;·&nbsp;
@@ -10,7 +10,7 @@
 
 ---
 
-I build clean, functional interfaces that work well and feel right. My focus is on quality from the first line of code to the finished product — structure, usability, and consistent delivery.
+I build clean, functional web applications from interface to server. My focus is on quality across the full stack — structure, usability, reliable logic, and consistent delivery.
 
 Beyond the technical side, I bring strong communication skills and a commercial perspective shaped by years of client-facing work. I understand that good software solves real problems for real people, and I build with that in mind.
 
@@ -37,7 +37,7 @@ Beyond the technical side, I bring strong communication skills and a commercial 
 Personal portfolio built with HTML, CSS, and JavaScript — responsive, multilingual (PT/EN/ES), and optimized for performance and accessibility.
 
 **[Petshop Scheduling](https://github.com/ebenersantos-dot/projeto-pet-shop)**
-Web experience for veterinary appointment scheduling, focused on clear navigation and a straightforward form flow that converts.
+Full-stack web application for veterinary appointment scheduling, focused on clear navigation and a straightforward form flow that converts.
 
 **[Convo](https://github.com/ebenersantos-dot/convo)**
 Learning-focused website designed for daily use — clean layout, practical content structure, and solid responsive behavior.
@@ -52,8 +52,8 @@ Minimal task manager focused on usability and clean state management.
 
 ### What I bring
 
+- Full-stack ownership: from UI decisions to server logic and deployment
 - Interfaces that are readable, accessible, and built to last
-- End-to-end ownership: from layout decisions to deployment
 - Communication that works across technical and non-technical teams
 - A product mindset — I think about the user, not just the code
 - Precision in execution and follow-through on delivery
@@ -66,4 +66,4 @@ Portuguese (native) · English (fluent) · Spanish (intermediate)
 
 ---
 
-Open to front-end roles, contract work, and collaborations. Reach me at **ebener.santos@gmail.com** or connect on [LinkedIn](https://linkedin.com/in/ebenersantos).
+Open to full-stack roles, contract work, and collaborations. Reach me at **ebener.santos@gmail.com** or connect on [LinkedIn](https://linkedin.com/in/ebenersantos).
