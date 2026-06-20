@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="162" height="28" overflow="visible">
+  <defs>
+    <!-- 3D gradient: lighter top → darker bottom -->
+    <linearGradient id="ms-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#E84C14"/>
+      <stop offset="100%" stop-color="#B83200"/>
+    </linearGradient>
+    <!-- Top bevel shine -->
+    <linearGradient id="ms-shine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="white" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0"/>
+    </linearGradient>
+    <!-- Drop shadow -->
+    <filter id="ms-shadow" x="-4%" y="-15%" width="115%" height="160%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="black" flood-opacity="0.38"/>
+    </filter>
+    <!-- Clip sweep to badge shape -->
+    <clipPath id="ms-clip">
+      <rect width="162" height="28" rx="4"/>
+    </clipPath>
+  </defs>
+
+  <!-- Base with gradient + shadow -->
+  <rect width="162" height="28" rx="4" fill="url(#ms-bg)" filter="url(#ms-shadow)"/>
+
+  <!-- Top-half bevel shine (3D depth) -->
+  <rect width="162" height="14" rx="4" fill="url(#ms-shine)"/>
+  <rect y="6" width="162" height="8" fill="url(#ms-shine)"/>
+
+  <!-- Bottom edge darkening (pressed-in base) -->
+  <rect y="24" width="162" height="4" rx="4" fill="black" opacity="0.15"/>
+
+  <!-- Shimmer sweep animation -->
+  <g clip-path="url(#ms-clip)">
+    <rect x="-90" y="-4" width="60" height="36" fill="white" opacity="0.14" transform="skewX(-18)">
+      <animate attributeName="x" from="-90" to="240" dur="4s" repeatCount="indefinite" begin="0s"/>
+    </rect>
+  </g>
+
+  <!-- Microsoft icon: 4-quadrant squares (brand colors) -->
+  <!-- Top-left: red -->
+  <rect x="9"  y="7"  width="6" height="6" fill="#f35421" opacity="0.95"/>
+  <!-- Top-right: green -->
+  <rect x="16" y="7"  width="6" height="6" fill="#80ba01" opacity="0.95"/>
+  <!-- Bottom-left: blue -->
+  <rect x="9"  y="14" width="6" height="6" fill="#02a4ef" opacity="0.95"/>
+  <!-- Bottom-right: yellow -->
+  <rect x="16" y="14" width="6" height="6" fill="#ffb902" opacity="0.95"/>
+
+  <!-- Text -->
+  <text x="29" y="19"
+    font-family="DejaVu Sans,Verdana,Geneva,sans-serif"
+    font-size="11" font-weight="bold" fill="white" letter-spacing="0.7">
+    MICROSOFT 365
+  </text>
+</svg>

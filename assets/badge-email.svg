@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="105" height="28" overflow="visible">
+  <defs>
+    <linearGradient id="em-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1A3D75"/>
+      <stop offset="100%" stop-color="#091E3A"/>
+    </linearGradient>
+    <linearGradient id="em-shine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="white" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="em-shadow" x="-4%" y="-15%" width="115%" height="160%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="black" flood-opacity="0.38"/>
+    </filter>
+    <clipPath id="em-clip">
+      <rect width="105" height="28" rx="4"/>
+    </clipPath>
+  </defs>
+  <rect width="105" height="28" rx="4" fill="url(#em-bg)" filter="url(#em-shadow)"/>
+  <rect width="105" height="14" rx="4" fill="url(#em-shine)"/>
+  <rect y="6" width="105" height="8" fill="url(#em-shine)"/>
+  <rect y="24" width="105" height="4" rx="4" fill="black" opacity="0.15"/>
+  <g clip-path="url(#em-clip)">
+    <rect x="-90" y="-4" width="60" height="36" fill="white" opacity="0.14" transform="skewX(-18)">
+      <animate attributeName="x" from="-90" to="190" dur="4s" repeatCount="indefinite" begin="2.1s"/>
+    </rect>
+  </g>
+  <!-- Envelope icon (white) -->
+  <rect x="9" y="9" width="14" height="10" rx="1.5" fill="white" opacity="0.15" stroke="white" stroke-width="1.2"/>
+  <polyline points="9,11 16,16 23,11" fill="none" stroke="white" stroke-width="1.2" stroke-linejoin="round"/>
+  <text x="30" y="19" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11" font-weight="bold" fill="white" letter-spacing="0.7">EMAIL</text>
+</svg>
